@@ -1,6 +1,5 @@
 <template>
   <div class="datatable-container container position-relative">
-    <!-- Loading Spinner -->
     <div v-if="isLoading" class="loading-overlay">
       <div class="spinner-border text-primary" role="status">
         <span class="visually-hidden">Loading...</span>
